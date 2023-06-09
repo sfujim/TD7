@@ -1,6 +1,6 @@
 # For SALE: State-Action Representation Learning for Deep Reinforcement Learning
 
-Official implementation of the TD7 algorithm. 
+Official implementation of the TD7 algorithm. If you use our code please cite the [paper](https://arxiv.org/abs/2306.02451).
 
 ### Usage
 
@@ -20,3 +20,14 @@ Results were originally collected with:
 - [MuJoCo 2.3.3](https://github.com/deepmind/mujoco)
 - [Pytorch 2.0.0](https://pytorch.org)
 - [Python 3.9.13](https://www.python.org)
+
+### Bibtex
+
+```bibtex
+@article{fujimoto2023sale,
+  title={For SALE: State-Action Representation Learning for Deep Reinforcement Learning},
+  author={Fujimoto, Scott and Chang, Wei-Di and Smith, Edward J and Gu, Shixiang Shane and Precup, Doina and Meger, David},
+  journal={arXiv preprint arXiv:2306.02451},
+  year={2023}
+}
+```
