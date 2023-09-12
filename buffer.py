@@ -29,8 +29,8 @@ class LAP(object):
 		self.reward = np.zeros((max_size, 1))
 		self.not_done = np.zeros((max_size, 1))
 
+		self.prioritized = prioritized
 		if prioritized:
-			self.prioritized = True
 			self.priority = torch.zeros(max_size, device=device)
 			self.max_priority = 1
 
